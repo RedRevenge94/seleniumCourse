@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="EDOCS - Monitoring" thread-count="2" parallel="tests" >
+<suite name="Selenium Course" thread-count="2" parallel="tests" >
 
 <parameter name="os" value="windows10" />
 
 <test name="ChromeTest">
 	<parameter name="browser" value="chrome" />
 	<classes>
-           <class name="Selenium.Course.Lesson1.Worhskop01Test"/>
+           <class name="Selenium.Course.Lesson1.Workshop01Test"/>
     </classes>
 </test>
 

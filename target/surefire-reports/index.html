@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Selenium_Course">
+              <span class="suite-name border-passed">Selenium Course</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Selenium_Course">
+                    <span>D:\Programy\WebDriver\eclipse-java-neon-2-win32-x86_64\Workspace\Course\OS\windows10.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Selenium_Course">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Selenium_Course">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Selenium_Course">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Selenium_Course">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Selenium_Course">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Selenium_Course">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Selenium_Course" class="hide-methods passed suite-Selenium_Course"> (hide)</a> <!-- hide-methods passed suite-Selenium_Course -->
+                      <a href="#" panel-name="suite-Selenium_Course" class="show-methods passed suite-Selenium_Course"> (show)</a> <!-- show-methods passed suite-Selenium_Course -->
+                    </span>
+                    <div class="method-list-content passed suite-Selenium_Course">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_Course" title="Selenium.Course.Lesson1.Workshop01Test" hash-for-method="ShouldTestActiveCheckbox">ShouldTestActiveCheckbox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_Course" title="Selenium.Course.Lesson1.Workshop01Test" hash-for-method="ShouldTestCommentInput">ShouldTestCommentInput</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_Course" title="Selenium.Course.Lesson1.Workshop01Test" hash-for-method="ShouldTestCountry">ShouldTestCountry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_Course" title="Selenium.Course.Lesson1.Workshop01Test" hash-for-method="ShouldTestDetailsLink">ShouldTestDetailsLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_Course" title="Selenium.Course.Lesson1.Workshop01Test" hash-for-method="ShouldTestFirstName">ShouldTestFirstName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_Course" title="Selenium.Course.Lesson1.Workshop01Test" hash-for-method="ShouldTestLastName">ShouldTestLastName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Selenium_Course" title="Selenium.Course.Lesson1.Workshop01Test" hash-for-method="ShouldTestListOfBooksLink">ShouldTestListOfBooksLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Selenium_Course -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Selenium_Course" class="panel Selenium_Course">
+          <div class="suite-Selenium_Course-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Selenium.Course.Lesson1.Workshop01Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldTestActiveCheckbox">
+                  </a> <!-- ShouldTestActiveCheckbox -->
+                  <span class="method-name">ShouldTestActiveCheckbox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldTestCommentInput">
+                  </a> <!-- ShouldTestCommentInput -->
+                  <span class="method-name">ShouldTestCommentInput</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldTestCountry">
+                  </a> <!-- ShouldTestCountry -->
+                  <span class="method-name">ShouldTestCountry</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldTestDetailsLink">
+                  </a> <!-- ShouldTestDetailsLink -->
+                  <span class="method-name">ShouldTestDetailsLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldTestFirstName">
+                  </a> <!-- ShouldTestFirstName -->
+                  <span class="method-name">ShouldTestFirstName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldTestLastName">
+                  </a> <!-- ShouldTestLastName -->
+                  <span class="method-name">ShouldTestLastName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ShouldTestListOfBooksLink">
+                  </a> <!-- ShouldTestListOfBooksLink -->
+                  <span class="method-name">ShouldTestListOfBooksLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Selenium_Course-class-passed -->
+        </div> <!-- panel Selenium_Course -->
+        <div panel-name="test-xml-Selenium_Course" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Programy\WebDriver\eclipse-java-neon-2-win32-x86_64\Workspace\Course\OS\windows10.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Selenium Course&quot; parallel=&quot;tests&quot;&gt;
+  &lt;parameter name=&quot;os&quot; value=&quot;windows10&quot;/&gt;
+  &lt;test name=&quot;ChromeTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Selenium.Course.Lesson1.Workshop01Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChromeTest --&gt;
+&lt;/suite&gt; &lt;!-- Selenium Course --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Selenium_Course" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Selenium Course</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ChromeTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Selenium_Course" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Selenium Course</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Selenium_Course" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Selenium Course</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Selenium_Course');
+function tableData_Selenium_Course() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ShouldTestActiveCheckbox')
+data.setCell(0, 2, 'Selenium.Course.Lesson1.Workshop01Test')
+data.setCell(0, 3, 6879);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ShouldTestCommentInput')
+data.setCell(1, 2, 'Selenium.Course.Lesson1.Workshop01Test')
+data.setCell(1, 3, 860);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ShouldTestListOfBooksLink')
+data.setCell(2, 2, 'Selenium.Course.Lesson1.Workshop01Test')
+data.setCell(2, 3, 697);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ShouldTestDetailsLink')
+data.setCell(3, 2, 'Selenium.Course.Lesson1.Workshop01Test')
+data.setCell(3, 3, 591);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ShouldTestLastName')
+data.setCell(4, 2, 'Selenium.Course.Lesson1.Workshop01Test')
+data.setCell(4, 3, 569);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'ShouldTestFirstName')
+data.setCell(5, 2, 'Selenium.Course.Lesson1.Workshop01Test')
+data.setCell(5, 3, 566);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ShouldTestCountry')
+data.setCell(6, 2, 'Selenium.Course.Lesson1.Workshop01Test')
+data.setCell(6, 3, 557);
+window.suiteTableData['Selenium_Course']= { tableData: data, tableDiv: 'times-div-Selenium_Course'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <div id="times-div-Selenium_Course">
+              </div> <!-- times-div-Selenium_Course -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Selenium_Course" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Selenium Course</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Selenium_Course" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Selenium_Course" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Selenium.Course.Lesson1.Workshop01Test</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">ShouldTestActiveCheckbox</span>
+                <span class="method-start">10011 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ShouldTestCommentInput</span>
+                <span class="method-start">16897 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ShouldTestCountry</span>
+                <span class="method-start">17759 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ShouldTestDetailsLink</span>
+                <span class="method-start">18317 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ShouldTestFirstName</span>
+                <span class="method-start">18909 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ShouldTestLastName</span>
+                <span class="method-start">19477 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ShouldTestListOfBooksLink</span>
+                <span class="method-start">20048 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">terminateBrowser</span>
+                <span class="method-start">20750 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

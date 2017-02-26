@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Selenium Course" duration-ms="25167" started-at="2017-02-26T19:56:40Z" finished-at="2017-02-26T19:57:05Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="25167" started-at="2017-02-26T19:56:40Z" finished-at="2017-02-26T19:57:05Z">
+      <class name="Selenium.Course.Lesson1.Workshop01Test">
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:Selenium.Course.Lesson1.Workshop01Test@61dc03ce]" name="initBrowser" is-config="true" duration-ms="9951" started-at="2017-02-26T20:56:40Z" finished-at="2017-02-26T20:56:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="ShouldTestActiveCheckbox()[pri:0, instance:Selenium.Course.Lesson1.Workshop01Test@61dc03ce]" name="ShouldTestActiveCheckbox" duration-ms="6879" started-at="2017-02-26T20:56:50Z" finished-at="2017-02-26T20:56:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShouldTestActiveCheckbox -->
+        <test-method status="PASS" signature="ShouldTestCommentInput()[pri:0, instance:Selenium.Course.Lesson1.Workshop01Test@61dc03ce]" name="ShouldTestCommentInput" duration-ms="860" started-at="2017-02-26T20:56:57Z" finished-at="2017-02-26T20:56:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShouldTestCommentInput -->
+        <test-method status="PASS" signature="ShouldTestCountry()[pri:0, instance:Selenium.Course.Lesson1.Workshop01Test@61dc03ce]" name="ShouldTestCountry" duration-ms="557" started-at="2017-02-26T20:56:58Z" finished-at="2017-02-26T20:56:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShouldTestCountry -->
+        <test-method status="PASS" signature="ShouldTestDetailsLink()[pri:0, instance:Selenium.Course.Lesson1.Workshop01Test@61dc03ce]" name="ShouldTestDetailsLink" duration-ms="591" started-at="2017-02-26T20:56:58Z" finished-at="2017-02-26T20:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShouldTestDetailsLink -->
+        <test-method status="PASS" signature="ShouldTestFirstName()[pri:0, instance:Selenium.Course.Lesson1.Workshop01Test@61dc03ce]" name="ShouldTestFirstName" duration-ms="566" started-at="2017-02-26T20:56:59Z" finished-at="2017-02-26T20:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShouldTestFirstName -->
+        <test-method status="PASS" signature="ShouldTestLastName()[pri:0, instance:Selenium.Course.Lesson1.Workshop01Test@61dc03ce]" name="ShouldTestLastName" duration-ms="569" started-at="2017-02-26T20:56:59Z" finished-at="2017-02-26T20:57:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShouldTestLastName -->
+        <test-method status="PASS" signature="ShouldTestListOfBooksLink()[pri:0, instance:Selenium.Course.Lesson1.Workshop01Test@61dc03ce]" name="ShouldTestListOfBooksLink" duration-ms="697" started-at="2017-02-26T20:57:00Z" finished-at="2017-02-26T20:57:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShouldTestListOfBooksLink -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:Selenium.Course.Lesson1.Workshop01Test@61dc03ce]" name="terminateBrowser" is-config="true" duration-ms="4412" started-at="2017-02-26T20:57:01Z" finished-at="2017-02-26T20:57:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- Selenium.Course.Lesson1.Workshop01Test -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Selenium Course -->
+</testng-results>

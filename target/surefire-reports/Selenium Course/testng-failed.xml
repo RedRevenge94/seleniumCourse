@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Selenium Course]" parallel="tests">
+  <parameter name="os" value="windows10"/>
+  <test name="ChromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Selenium.Course.Lesson1.Workshop01Test">
+        <methods>
+          <include name="initBrowser"/>
+          <include name="ShouldTestDetailsLink"/>
+          <include name="terminateBrowser"/>
+        </methods>
+      </class> <!-- Selenium.Course.Lesson1.Workshop01Test -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Selenium Course] -->
