@@ -5,13 +5,13 @@
   <test name="ChromeTest(failed)" parallel="tests">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Selenium.Course.Lesson1.Workshop02Test">
+      <class name="Selenium.Course.Lesson3.Workshop03Test">
         <methods>
-          <include name="ShouldTestWorkshop2Page"/>
           <include name="initBrowser"/>
+          <include name="ShouldCheckLinksDomain"/>
           <include name="terminateBrowser"/>
         </methods>
-      </class> <!-- Selenium.Course.Lesson1.Workshop02Test -->
+      </class> <!-- Selenium.Course.Lesson3.Workshop03Test -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [Selenium Course] -->
