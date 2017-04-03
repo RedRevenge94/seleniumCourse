@@ -15,7 +15,7 @@
            <class name="Selenium.Course.Lesson5.Workshop05Test"/>
            <class name="Selenium.Course.Lesson6.Workshop06Test"/>
            <class name="Selenium.Course.Lesson7.Workshop07Test"/> -->
-           <class name="Selenium.Course.Lesson6.Workshop06Test"/>
+           <class name="Selenium.Course.Lesson7.Workshop07Test"/>
     </classes>
 </test>
 
