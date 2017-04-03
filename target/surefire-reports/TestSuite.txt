@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.727 sec - in TestSuite
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 31.572 sec <<< FAILURE! - in TestSuite
+ShouldTestOnMobile(Selenium.Course.Lesson6.Workshop06Test)  Time elapsed: 9.974 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at Selenium.Course.Lesson6.Workshop06Test.ShouldTestOnMobile(Workshop06Test.java:51)
+

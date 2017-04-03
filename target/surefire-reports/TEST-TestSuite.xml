@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="26.727" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="31.572" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_45\jre\bin"/>
@@ -62,5 +62,13 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="ShouldSelectAnswers" classname="Selenium.Course.Lesson5.Workshop05Test" time="7.478"/>
+  <testcase name="ShouldTestOnDesktop" classname="Selenium.Course.Lesson6.Workshop06Test" time="18.686"/>
+  <testcase name="ShouldTestOnMobile" classname="Selenium.Course.Lesson6.Workshop06Test" time="9.974">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at Selenium.Course.Lesson6.Workshop06Test.ShouldTestOnMobile(Workshop06Test.java:51)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9) on port 30892
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
 </testsuite>
