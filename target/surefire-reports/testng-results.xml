@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Selenium Course" duration-ms="25010" started-at="2017-03-05T21:19:26Z" finished-at="2017-03-05T21:19:51Z">
+  <suite name="Selenium Course" duration-ms="28067" started-at="2017-04-03T07:47:18Z" finished-at="2017-04-03T07:47:46Z">
     <groups>
     </groups>
-    <test name="ChromeTest" duration-ms="25010" started-at="2017-03-05T21:19:26Z" finished-at="2017-03-05T21:19:51Z">
-      <class name="Selenium.Course.Lesson3.Workshop03Test">
-        <test-method status="PASS" signature="initBrowser()[pri:0, instance:Selenium.Course.Lesson3.Workshop03Test@2c9f9fb0]" name="initBrowser" is-config="true" duration-ms="12742" started-at="2017-03-05T22:19:26Z" finished-at="2017-03-05T22:19:39Z">
+    <test name="ChromeTest" duration-ms="28067" started-at="2017-04-03T07:47:18Z" finished-at="2017-04-03T07:47:46Z">
+      <class name="Selenium.Course.Lesson4.Workshop04Test">
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:Selenium.Course.Lesson4.Workshop04Test@3dd3bcd]" name="initBrowser" is-config="true" duration-ms="10789" started-at="2017-04-03T09:47:18Z" finished-at="2017-04-03T09:47:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method status="PASS" signature="ShouldCheckLinksDomain()[pri:0, instance:Selenium.Course.Lesson3.Workshop03Test@2c9f9fb0]" name="ShouldCheckLinksDomain" duration-ms="5967" started-at="2017-03-05T22:19:39Z" finished-at="2017-03-05T22:19:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ShouldCheckLinksDomain -->
-        <test-method status="PASS" signature="ShouldCheckNumberOfBooks()[pri:0, instance:Selenium.Course.Lesson3.Workshop03Test@2c9f9fb0]" name="ShouldCheckNumberOfBooks" duration-ms="919" started-at="2017-03-05T22:19:45Z" finished-at="2017-03-05T22:19:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ShouldCheckNumberOfBooks -->
-        <test-method status="PASS" signature="ShouldCheckSelectedBookName()[pri:0, instance:Selenium.Course.Lesson3.Workshop03Test@2c9f9fb0]" name="ShouldCheckSelectedBookName" duration-ms="953" started-at="2017-03-05T22:19:46Z" finished-at="2017-03-05T22:19:47Z">
+        <test-method status="PASS" signature="ShouldCheckSelectedBookName()[pri:0, instance:Selenium.Course.Lesson4.Workshop04Test@3dd3bcd]" name="ShouldCheckSelectedBookName" duration-ms="12327" started-at="2017-04-03T09:47:29Z" finished-at="2017-04-03T09:47:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ShouldCheckSelectedBookName -->
-        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:Selenium.Course.Lesson3.Workshop03Test@2c9f9fb0]" name="terminateBrowser" is-config="true" duration-ms="4326" started-at="2017-03-05T22:19:47Z" finished-at="2017-03-05T22:19:51Z">
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:Selenium.Course.Lesson4.Workshop04Test@3dd3bcd]" name="terminateBrowser" is-config="true" duration-ms="4856" started-at="2017-04-03T09:47:42Z" finished-at="2017-04-03T09:47:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminateBrowser -->
-      </class> <!-- Selenium.Course.Lesson3.Workshop03Test -->
+      </class> <!-- Selenium.Course.Lesson4.Workshop04Test -->
     </test> <!-- ChromeTest -->
   </suite> <!-- Selenium Course -->
 </testng-results>

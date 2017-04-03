@@ -19,7 +19,6 @@
                 <configuration>
                     <suiteXmlFiles>
                         <file>OS/windows10.xml</file>
-                        <!-- <file>OS/windows7.xml</file> -->
                     </suiteXmlFiles>
                     <properties>
 			            <property>
